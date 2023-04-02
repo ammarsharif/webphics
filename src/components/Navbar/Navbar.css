@@ -1,0 +1,80 @@
+.sidebar {
+    background-color: transparent;
+    height: 100vh;
+    position: fixed;
+    top: 15%;
+    left: 0;
+    padding: 20px 0px 20px 20px;
+    overflow-y: auto;
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+  }
+  
+  .sidebar:hover {
+    width: 200px;
+  }
+  
+  @media (min-width: 576px) {
+    .sidebar {
+      width: 56px;
+    }
+  
+    .sidebar:hover {
+      width: 200px;
+    }
+  }
+  
+  @media (min-width: 768px) {
+    .sidebar {
+      width: 80px;
+    }
+  
+    .sidebar:hover {
+      width: 200px;
+    }
+  }
+  
+  @media (min-width: 992px) {
+    .sidebar {
+      width: 120px;
+    }
+  
+    .sidebar:hover {
+      width: 200px;
+    }
+  }
+  
+  @media (min-width: 1200px) {
+    .sidebar {
+      width: 160px;
+    }
+  
+    .sidebar:hover {
+      width: 200px;
+    }
+  }
+  
+  .nav-link {
+    color: #333;
+    margin-bottom: 10px;
+    font-size: 20px;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .nav-link:hover {
+    color: #fff;
+  }
+  
+  .sidebar:hover .nav-link {
+    font-size: 22px;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+  }
+  
